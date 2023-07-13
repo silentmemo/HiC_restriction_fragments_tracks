@@ -28,7 +28,7 @@ Make it interactive for better user experience. It is likely that this script wi
 
 This script is a command-line tool that converts a BED file to both BED3+9 and bigBed formats. The tool takes three required arguments: the path to the input BED file, the path to a chromosome sizes file, and the path to the output files (without extension).
 
-After parsing the command-line arguments, the tool prompts the user to enter a track name and description. It then converts the input BED file to BED3+9 format and writes the result to an output BED file. The tool then prints a track line that can be added to a trackDb.txt file, and converts the output BED file to bigBed format using the bedToBigBed command.
+After parsing the command-line arguments, the tool prompts the user to enter a track name and description. It then converts the input BED file to BED3+9 format and writes the result to an output BED file. The tool then prints a track line, and converts the output BED file to bigBed format using the bedToBigBed command.
 
 If the bedToBigBed command is not found on the user's system, the tool prints a warning message and provides a link to download the command. The tool also provides instructions on how to ensure that the downloaded command has execute permissions.
 
