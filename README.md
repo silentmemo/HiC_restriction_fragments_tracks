@@ -4,6 +4,8 @@
 
 In restriction enzyme digestion Hi-C experiments, restriction fragments is one of the factor that limits the resolutions of the Hi-C matrix. When display in 1-D tracks, it may be informative to show the individual restriction fragments. 
 
+* this repo is written with the help of AI.  
+
 ***
 ## Directions
 1. Generate a restriction fragments bed file, each record is a restriction fragment
